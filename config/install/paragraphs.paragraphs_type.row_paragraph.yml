@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: row_paragraph
+label: 'row paragraph'
+icon_uuid: null
+description: 'A holder for all row paragraph types'
+behavior_plugins: {  }

@@ -1,0 +1,14 @@
+name: ecorys component library
+description: ecorys component library
+package: Custom
+
+type: module
+core: 8.x
+
+dependencies:
+  - paragraphs:paragraphs
+  - entity_reference_revisions:entity_reference_revisions
+  - node:node
+  - field_layout:field_layout
+  - layout_discovery:layout_discovery
+  - layout_builder:layout_builder

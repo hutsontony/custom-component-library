@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: 50_50_paragraph
+label: '50 / 50 paragraph'
+icon_uuid: null
+description: 'a paragraph that is 50% /50%'
+behavior_plugins: {  }

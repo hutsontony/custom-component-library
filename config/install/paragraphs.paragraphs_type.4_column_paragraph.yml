@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: 4_column_paragraph
+label: '4 column paragraph'
+icon_uuid: null
+description: 'a 4 column paragraph ...| 25 | 25 | 25 | 25 |....'
+behavior_plugins: {  }

@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: 66_33_columns_paragraph
+label: '66-33 columns paragraph'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

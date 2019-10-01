@@ -1,0 +1,47 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_choose_component
+    - paragraphs.paragraphs_type.component_1
+    - paragraphs.paragraphs_type.component_2
+    - paragraphs.paragraphs_type.components
+  module:
+    - entity_reference_revisions
+id: paragraph.components.field_choose_component
+field_name: field_choose_component
+entity_type: paragraph
+bundle: components
+label: 'choose component'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      component_1: component_1
+      component_2: component_2
+    target_bundles_drag_drop:
+      50_50_paragraph:
+        weight: 6
+        enabled: false
+      component_1:
+        enabled: true
+        weight: 7
+      components:
+        weight: 8
+        enabled: false
+      component_2:
+        enabled: true
+        weight: 9
+      full_width_paragraph_100_:
+        weight: 9
+        enabled: false
+      row_pargraph:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions

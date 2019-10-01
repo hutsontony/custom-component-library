@@ -1,0 +1,43 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.3_column_paragraph.field_column1
+    - field.field.paragraph.3_column_paragraph.field_column2
+    - field.field.paragraph.3_column_paragraph.field_column3
+    - paragraphs.paragraphs_type.3_column_paragraph
+  module:
+    - entity_reference_revisions
+id: paragraph.3_column_paragraph.default
+targetEntityType: paragraph
+bundle: 3_column_paragraph
+mode: default
+content:
+  field_column1:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_column2:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_column3:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

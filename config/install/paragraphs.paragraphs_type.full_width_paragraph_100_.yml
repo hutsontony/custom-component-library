@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: full_width_paragraph_100_
+label: 'full width paragraph 100%'
+icon_uuid: null
+description: 'A full width paragraph type'
+behavior_plugins: {  }

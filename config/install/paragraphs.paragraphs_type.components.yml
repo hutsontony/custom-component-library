@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: components
+label: components
+icon_uuid: null
+description: 'Add all component elements here. They will then be available to the paragraph rows'
+behavior_plugins: {  }

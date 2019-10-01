@@ -1,0 +1,67 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_choose_paragraph
+    - paragraphs.paragraphs_type.33_66_column_paragraph
+    - paragraphs.paragraphs_type.3_column_paragraph
+    - paragraphs.paragraphs_type.4_column_paragraph
+    - paragraphs.paragraphs_type.50_50_paragraph
+    - paragraphs.paragraphs_type.66_33_columns_paragraph
+    - paragraphs.paragraphs_type.full_width_paragraph_100_
+    - paragraphs.paragraphs_type.row_paragraph
+  module:
+    - entity_reference_revisions
+id: paragraph.row_paragraph.field_choose_paragraph
+field_name: field_choose_paragraph
+entity_type: paragraph
+bundle: row_paragraph
+label: 'choose paragraph'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      50_50_paragraph: 50_50_paragraph
+      33_66_column_paragraph: 33_66_column_paragraph
+      full_width_paragraph_100_: full_width_paragraph_100_
+      3_column_paragraph: 3_column_paragraph
+      4_column_paragraph: 4_column_paragraph
+      66_33_columns_paragraph: 66_33_columns_paragraph
+    target_bundles_drag_drop:
+      50_50_paragraph:
+        enabled: true
+        weight: 7
+      component_1:
+        weight: 8
+        enabled: false
+      component_2:
+        weight: 9
+        enabled: false
+      components:
+        weight: 10
+        enabled: false
+      33_66_column_paragraph:
+        enabled: true
+        weight: 11
+      full_width_paragraph_100_:
+        enabled: true
+        weight: 11
+      3_column_paragraph:
+        enabled: true
+        weight: 12
+      row_paragraph:
+        weight: 12
+        enabled: false
+      4_column_paragraph:
+        enabled: true
+        weight: 13
+      66_33_columns_paragraph:
+        enabled: true
+        weight: 15
+field_type: entity_reference_revisions

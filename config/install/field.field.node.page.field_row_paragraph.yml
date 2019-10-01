@@ -1,0 +1,47 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_row_paragraph
+    - node.type.page
+    - paragraphs.paragraphs_type.50_50_paragraph
+    - paragraphs.paragraphs_type.full_width_paragraph_100_
+  module:
+    - entity_reference_revisions
+id: node.page.field_row_paragraph
+field_name: field_row_paragraph
+entity_type: node
+bundle: page
+label: 'row paragraph'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      50_50_paragraph: 50_50_paragraph
+      full_width_paragraph_100_: full_width_paragraph_100_
+    target_bundles_drag_drop:
+      50_50_paragraph:
+        enabled: true
+        weight: 5
+      components:
+        weight: 6
+        enabled: false
+      full_width_paragraph_100_:
+        enabled: true
+        weight: 7
+      component_1:
+        weight: 8
+        enabled: false
+      component_2:
+        weight: 9
+        enabled: false
+      row_paragraph:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions

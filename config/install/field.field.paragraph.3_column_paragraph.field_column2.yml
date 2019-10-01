@@ -1,0 +1,42 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_column2
+    - paragraphs.paragraphs_type.3_column_paragraph
+    - paragraphs.paragraphs_type.components
+  module:
+    - entity_reference_revisions
+id: paragraph.3_column_paragraph.field_column2
+field_name: field_column2
+entity_type: paragraph
+bundle: 3_column_paragraph
+label: 'column 2'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      components: components
+    target_bundles_drag_drop:
+      3_column_paragraph:
+        weight: 8
+        enabled: false
+      50_50_paragraph:
+        weight: 9
+        enabled: false
+      components:
+        enabled: true
+        weight: 10
+      full_width_paragraph_100_:
+        weight: 11
+        enabled: false
+      row_paragraph:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: 3_column_paragraph
+label: '3 column paragraph'
+icon_uuid: null
+description: 'a three column paragraph to display components ....| 1 | 2 | 3 |.....'
+behavior_plugins: {  }

@@ -1,0 +1,39 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_single_column
+    - paragraphs.paragraphs_type.components
+    - paragraphs.paragraphs_type.full_width_paragraph_100_
+  module:
+    - entity_reference_revisions
+id: paragraph.full_width_paragraph_100_.field_single_column
+field_name: field_single_column
+entity_type: paragraph
+bundle: full_width_paragraph_100_
+label: 'single column'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      components: components
+    target_bundles_drag_drop:
+      full_width_paragraph_100_:
+        weight: 3
+        enabled: false
+      row_pargraph:
+        weight: 4
+        enabled: false
+      50_50_paragraph:
+        weight: 5
+        enabled: false
+      components:
+        enabled: true
+        weight: 6
+field_type: entity_reference_revisions

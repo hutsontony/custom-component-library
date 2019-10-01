@@ -1,0 +1,38 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.component_2.field_para_link
+    - paragraphs.paragraphs_type.component_2
+  module:
+    - field_layout
+    - layout_builder
+    - layout_discovery
+    - link
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+  layout_builder:
+    enabled: false
+    allow_custom: false
+_core:
+  default_config_hash: mZ94Ynkk7Y5uG4lJwyHNqQsRZT5h_7q3UttTo70JhH0
+id: paragraph.component_2.default
+targetEntityType: paragraph
+bundle: component_2
+mode: default
+content:
+  field_para_link:
+    type: link
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+hidden: {  }

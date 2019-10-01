@@ -1,0 +1,51 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_1third_column
+    - paragraphs.paragraphs_type.33_66_column_paragraph
+    - paragraphs.paragraphs_type.components
+  module:
+    - entity_reference_revisions
+id: paragraph.33_66_column_paragraph.field_1third_column
+field_name: field_1third_column
+entity_type: paragraph
+bundle: 33_66_column_paragraph
+label: '1third column'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      components: components
+    target_bundles_drag_drop:
+      33_66_column_paragraph:
+        weight: 11
+        enabled: false
+      3_column_paragraph:
+        weight: 12
+        enabled: false
+      4_column_paragraph:
+        weight: 13
+        enabled: false
+      50_50_paragraph:
+        weight: 14
+        enabled: false
+      components:
+        enabled: true
+        weight: 15
+      full_width_paragraph_100_:
+        weight: 16
+        enabled: false
+      row_paragraph:
+        weight: 17
+        enabled: false
+      third_and_2_thirds_column_paragr:
+        weight: 18
+        enabled: false
+field_type: entity_reference_revisions
