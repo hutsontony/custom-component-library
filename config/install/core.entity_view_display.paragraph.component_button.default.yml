@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.component_button.field_button
+    - paragraphs.paragraphs_type.component_button
+  module:
+    - link
+id: paragraph.component_button.default
+targetEntityType: paragraph
+bundle: component_button
+mode: default
+content:
+  field_button:
+    weight: 0
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

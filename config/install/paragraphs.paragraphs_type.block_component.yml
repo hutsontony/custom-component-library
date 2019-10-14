@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: block_component
+label: 'block component'
+icon_uuid: null
+description: 'add blocks to the page with this component'
+behavior_plugins: {  }

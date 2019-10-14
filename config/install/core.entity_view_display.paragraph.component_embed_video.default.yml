@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.component_embed_video.field_video
+    - paragraphs.paragraphs_type.component_embed_video
+  module:
+    - video_embed_field
+id: paragraph.component_embed_video.default
+targetEntityType: paragraph
+bundle: component_embed_video
+mode: default
+content:
+  field_video:
+    weight: 0
+    label: hidden
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+hidden: {  }

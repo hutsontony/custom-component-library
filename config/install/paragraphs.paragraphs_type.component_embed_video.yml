@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: component_embed_video
+label: 'component - embed video'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

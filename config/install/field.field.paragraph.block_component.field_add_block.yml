@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_add_block
+    - paragraphs.paragraphs_type.block_component
+  module:
+    - block_field
+id: paragraph.block_component.field_add_block
+field_name: field_add_block
+entity_type: paragraph
+bundle: block_component
+label: 'add block'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  plugin_ids:
+field_type: block_field

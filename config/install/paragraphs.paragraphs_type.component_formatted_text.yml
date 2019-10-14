@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: component_formatted_text
+label: 'component - formatted text'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

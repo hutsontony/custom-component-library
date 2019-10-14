@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: component_button
+label: 'component - button'
+icon_uuid: null
+description: 'a paragraph component of a button'
+behavior_plugins: {  }
