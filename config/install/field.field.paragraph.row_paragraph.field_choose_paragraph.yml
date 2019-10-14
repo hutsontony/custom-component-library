@@ -37,12 +37,6 @@ settings:
       50_50_paragraph:
         enabled: true
         weight: 7
-      component_1:
-        weight: 8
-        enabled: false
-      component_2:
-        weight: 9
-        enabled: false
       components:
         weight: 10
         enabled: false

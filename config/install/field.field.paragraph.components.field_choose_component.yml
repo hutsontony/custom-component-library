@@ -3,8 +3,6 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_choose_component
-    - paragraphs.paragraphs_type.component_1
-    - paragraphs.paragraphs_type.component_2
     - paragraphs.paragraphs_type.components
   module:
     - entity_reference_revisions
@@ -23,25 +21,52 @@ settings:
   handler_settings:
     negate: 0
     target_bundles:
-      component_1: component_1
-      component_2: component_2
+      block_component: block_component
+      component_blockquote: component_blockquote
+      component_embed_video: component_embed_video
+      component_button: component_button
+      component_formatted_text: component_formatted_text
     target_bundles_drag_drop:
       50_50_paragraph:
         weight: 6
         enabled: false
-      component_1:
-        enabled: true
-        weight: 7
       components:
         weight: 8
         enabled: false
-      component_2:
-        enabled: true
-        weight: 9
       full_width_paragraph_100_:
         weight: 9
         enabled: false
-      row_pargraph:
-        weight: 10
+      33_66_column_paragraph:
+        weight: 12
         enabled: false
+      3_column_paragraph:
+        weight: 13
+        enabled: false
+      4_column_paragraph:
+        weight: 14
+        enabled: false
+      66_33_columns_paragraph:
+        weight: 16
+        enabled: false
+      block_component:
+        enabled: true
+        weight: 18
+      latest_content:
+        weight: 21
+        enabled: false
+      component_blockquote:
+        enabled: true
+        weight: 22
+      row_paragraph:
+        weight: 22
+        enabled: false
+      component_embed_video:
+        enabled: true
+        weight: 24
+      component_button:
+        enabled: true
+        weight: 26
+      component_formatted_text:
+        enabled: true
+        weight: 26
 field_type: entity_reference_revisions

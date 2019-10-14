@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: component_1
-label: 'component 1'
-icon_uuid: null
-description: ''
-behavior_plugins: {  }

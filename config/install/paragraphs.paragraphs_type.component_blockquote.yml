@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: component_blockquote
+label: 'component - blockquote'
+icon_uuid: null
+description: 'a blockquote component'
+behavior_plugins: {  }

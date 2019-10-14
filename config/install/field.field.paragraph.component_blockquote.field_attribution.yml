@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_attribution
+    - paragraphs.paragraphs_type.component_blockquote
+id: paragraph.component_blockquote.field_attribution
+field_name: field_attribution
+entity_type: paragraph
+bundle: component_blockquote
+label: attribution
+description: 'Reference to the original author (optional).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

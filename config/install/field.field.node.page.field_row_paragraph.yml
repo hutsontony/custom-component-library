@@ -35,13 +35,7 @@ settings:
       full_width_paragraph_100_:
         enabled: true
         weight: 7
-      component_1:
-        weight: 8
-        enabled: false
-      component_2:
-        weight: 9
-        enabled: false
       row_paragraph:
-        weight: 12
+        weight: 8
         enabled: false
 field_type: entity_reference_revisions

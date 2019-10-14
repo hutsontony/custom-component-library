@@ -1,0 +1,52 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.component_blockquote.field_additional_text
+    - field.field.paragraph.component_blockquote.field_attribution
+    - field.field.paragraph.component_blockquote.field_citation
+    - field.field.paragraph.component_blockquote.field_quote
+    - paragraphs.paragraphs_type.component_blockquote
+  module:
+    - link
+id: paragraph.component_blockquote.default
+targetEntityType: paragraph
+bundle: component_blockquote
+mode: default
+content:
+  field_additional_text:
+    weight: 3
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_attribution:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_citation:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_quote:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden: {  }
