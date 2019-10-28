@@ -12,3 +12,5 @@ dependencies:
   - field_layout:field_layout
   - layout_discovery:layout_discovery
   - layout_builder:layout_builder
+  - block_field:block_field
+  - video_embed_field:video_embed_field
