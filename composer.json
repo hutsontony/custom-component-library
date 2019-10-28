@@ -1,0 +1,19 @@
+{
+  "name": "ecorys_component_library",
+  "description": "A custom module which holds component library configurations ",
+  "type": "drupal-custom-module",
+  "homepage": "https://gitlab.com/ecorys-uk/drupal/component-library",
+  "authors": [
+    {
+      "name": "Tony Hutson",
+      "homepage": "https://www.drupal.org/u/tonyhutson",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+        "composer/installers": "~1.0"
+    },
+  "support": {
+    "docs": "https://www.drupal.org/docs/8/creating-custom-modules"
+  }
+}
