@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: component_featured_image
+label: 'component - featured image'
+icon_uuid: null
+description: 'a component of a featured image'
+behavior_plugins: {  }

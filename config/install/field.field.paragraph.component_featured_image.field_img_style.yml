@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_img_style
+    - paragraphs.paragraphs_type.component_featured_image
+  module:
+    - formatter_field
+id: paragraph.component_featured_image.field_img_style
+field_name: field_img_style
+entity_type: paragraph
+bundle: component_featured_image
+label: 'img style'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    type: image
+    settings: 'a:2:{s:11:"image_style";s:0:"";s:10:"image_link";s:0:"";}'
+default_value_callback: ''
+settings:
+  field: field_para_image
+field_type: formatter_field_formatter

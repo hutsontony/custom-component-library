@@ -14,3 +14,4 @@ dependencies:
   - layout_builder:layout_builder
   - block_field:block_field
   - video_embed_field:video_embed_field
+  - formatter_field:formatter_field

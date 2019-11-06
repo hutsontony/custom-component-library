@@ -3,6 +3,12 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_choose_component
+    - paragraphs.paragraphs_type.block_component
+    - paragraphs.paragraphs_type.component_blockquote
+    - paragraphs.paragraphs_type.component_button
+    - paragraphs.paragraphs_type.component_embed_video
+    - paragraphs.paragraphs_type.component_featured_image
+    - paragraphs.paragraphs_type.component_formatted_text
     - paragraphs.paragraphs_type.components
   module:
     - entity_reference_revisions
@@ -24,6 +30,7 @@ settings:
       block_component: block_component
       component_blockquote: component_blockquote
       component_embed_video: component_embed_video
+      component_featured_image: component_featured_image
       component_button: component_button
       component_formatted_text: component_formatted_text
     target_bundles_drag_drop:
@@ -51,9 +58,6 @@ settings:
       block_component:
         enabled: true
         weight: 18
-      latest_content:
-        weight: 21
-        enabled: false
       component_blockquote:
         enabled: true
         weight: 22
@@ -61,6 +65,9 @@ settings:
         weight: 22
         enabled: false
       component_embed_video:
+        enabled: true
+        weight: 24
+      component_featured_image:
         enabled: true
         weight: 24
       component_button:

@@ -1,0 +1,48 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.component_featured_image.field_align
+    - field.field.paragraph.component_featured_image.field_image_style
+    - field.field.paragraph.component_featured_image.field_img_style
+    - field.field.paragraph.component_featured_image.field_para_image
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.component_featured_image
+  module:
+    - field_layout
+    - formatter_field
+    - image
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: paragraph.component_featured_image.default
+targetEntityType: paragraph
+bundle: component_featured_image
+mode: default
+content:
+  field_align:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_img_style:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: formatter_field_formatter
+    region: content
+  field_para_image:
+    weight: 0
+    settings:
+      preview_image_style: thumbnail
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: image_image
+    region: content
+hidden:
+  created: true
+  field_image_style: true
+  status: true

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_align
+    - paragraphs.paragraphs_type.component_featured_image
+  module:
+    - options
+id: paragraph.component_featured_image.field_align
+field_name: field_align
+entity_type: paragraph
+bundle: component_featured_image
+label: 'image align'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: center
+default_value_callback: ''
+settings: {  }
+field_type: list_string

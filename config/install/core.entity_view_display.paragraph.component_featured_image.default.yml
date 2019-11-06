@@ -1,0 +1,34 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.component_featured_image.field_align
+    - field.field.paragraph.component_featured_image.field_image_style
+    - field.field.paragraph.component_featured_image.field_img_style
+    - field.field.paragraph.component_featured_image.field_para_image
+    - paragraphs.paragraphs_type.component_featured_image
+  module:
+    - formatter_field
+    - options
+id: paragraph.component_featured_image.default
+targetEntityType: paragraph
+bundle: component_featured_image
+mode: default
+content:
+  field_align:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_para_image:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: formatter_field_from
+    region: content
+hidden:
+  field_image_style: true
+  field_img_style: true
