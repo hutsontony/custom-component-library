@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_address
+    - paragraphs.paragraphs_type.component_embed_map
+id: paragraph.component_embed_map.field_address
+field_name: field_address
+entity_type: paragraph
+bundle: component_embed_map
+label: Address
+description: 'add the address so it can be displayed on the map'
+required: true
+translatable: false
+default_value:
+  -
+    value: 'canary wharf, london'
+default_value_callback: ''
+settings: {  }
+field_type: string

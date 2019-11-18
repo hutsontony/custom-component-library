@@ -6,6 +6,7 @@ dependencies:
     - paragraphs.paragraphs_type.block_component
     - paragraphs.paragraphs_type.component_blockquote
     - paragraphs.paragraphs_type.component_button
+    - paragraphs.paragraphs_type.component_embed_map
     - paragraphs.paragraphs_type.component_embed_video
     - paragraphs.paragraphs_type.component_featured_image
     - paragraphs.paragraphs_type.component_formatted_text
@@ -32,6 +33,7 @@ settings:
       component_embed_video: component_embed_video
       component_featured_image: component_featured_image
       component_button: component_button
+      component_embed_map: component_embed_map
       component_formatted_text: component_formatted_text
     target_bundles_drag_drop:
       50_50_paragraph:
@@ -71,6 +73,9 @@ settings:
         enabled: true
         weight: 24
       component_button:
+        enabled: true
+        weight: 26
+      component_embed_map:
         enabled: true
         weight: 26
       component_formatted_text:

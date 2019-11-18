@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: component_embed_map
+label: 'component - embed map'
+icon_uuid: null
+description: 'a map to be embed in a paragraph'
+behavior_plugins: {  }

@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.component_embed_map.field_address
+    - paragraphs.paragraphs_type.component_embed_map
+  module:
+    - simple_gmap
+id: paragraph.component_embed_map.default
+targetEntityType: paragraph
+bundle: component_embed_map
+mode: default
+content:
+  field_address:
+    weight: 0
+    label: hidden
+    settings:
+      include_map: true
+      apikey: ''
+      iframe_width: '400'
+      iframe_height: '600'
+      static_scale: 1
+      link_text: 'View larger map'
+      zoom_level: 14
+      map_type: m
+      langcode: en
+      include_static_map: false
+      include_link: false
+      include_text: false
+    third_party_settings: {  }
+    type: simple_gmap
+    region: content
+hidden: {  }
