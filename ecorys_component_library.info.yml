@@ -15,3 +15,4 @@ dependencies:
   - block_field:block_field
   - video_embed_field:video_embed_field
   - formatter_field:formatter_field
+  - simple_gmap:simple_gmap
