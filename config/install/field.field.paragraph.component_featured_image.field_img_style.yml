@@ -6,6 +6,8 @@ dependencies:
     - paragraphs.paragraphs_type.component_featured_image
   module:
     - formatter_field
+_core:
+  default_config_hash: 0KV1VjLVuohSRmhL-WPlUqTNQE4QaZMvNLsJ4plYqhA
 id: paragraph.component_featured_image.field_img_style
 field_name: field_img_style
 entity_type: paragraph
@@ -16,8 +18,8 @@ required: false
 translatable: false
 default_value:
   -
-    type: image
-    settings: 'a:2:{s:11:"image_style";s:0:"";s:10:"image_link";s:0:"";}'
+    type: responsive_image
+    settings: 'a:2:{s:22:"responsive_image_style";s:6:"square";s:10:"image_link";s:0:"";}'
 default_value_callback: ''
 settings:
   field: field_para_image

@@ -3,9 +3,9 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.component_featured_image.field_align
-    - field.field.paragraph.component_featured_image.field_image_style
     - field.field.paragraph.component_featured_image.field_img_style
     - field.field.paragraph.component_featured_image.field_para_image
+    - field.field.paragraph.component_featured_image.field_responsive_img_option
     - image.style.thumbnail
     - paragraphs.paragraphs_type.component_featured_image
   module:
@@ -17,6 +17,8 @@ third_party_settings:
   field_layout:
     id: layout_onecol
     settings: {  }
+_core:
+  default_config_hash: CmWTbwSYWkInB9Dqri2gb_QFeUSGsmJdswoArYdDcgI
 id: paragraph.component_featured_image.default
 targetEntityType: paragraph
 bundle: component_featured_image
@@ -42,7 +44,12 @@ content:
     third_party_settings: {  }
     type: image_image
     region: content
+  field_responsive_img_option:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
 hidden:
   created: true
-  field_image_style: true
   status: true
