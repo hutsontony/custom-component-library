@@ -1,7 +1,7 @@
 {
-  "name": "custom-component-library",
+  "name": "custom/custom-component-library",
   "description": "A custom module which holds component library configurations ",
-  "type": "drupal-custom-module",
+  "type": "drupal-module",
   "homepage": "https://github.com/hutsontony/custom-component-library",
   "authors": [
     {
