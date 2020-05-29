@@ -1,5 +1,5 @@
-name: ecorys component library
-description: ecorys component library
+name: custom component library
+description: custom component library
 package: Custom
 
 type: module
@@ -16,3 +16,4 @@ dependencies:
   - video_embed_field:video_embed_field
   - formatter_field:formatter_field
   - simple_gmap:simple_gmap
+  - responsive_image:responsive_image
