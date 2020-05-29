@@ -4,7 +4,11 @@ dependencies:
   config:
     - field.storage.node.field_row_paragraph
     - node.type.page
+    - paragraphs.paragraphs_type.33_66_column_paragraph
+    - paragraphs.paragraphs_type.3_column_paragraph
+    - paragraphs.paragraphs_type.4_column_paragraph
     - paragraphs.paragraphs_type.50_50_paragraph
+    - paragraphs.paragraphs_type.66_33_columns_paragraph
     - paragraphs.paragraphs_type.full_width_paragraph_100_
   module:
     - entity_reference_revisions
@@ -25,10 +29,47 @@ settings:
     target_bundles:
       50_50_paragraph: 50_50_paragraph
       full_width_paragraph_100_: full_width_paragraph_100_
+      33_66_column_paragraph: 33_66_column_paragraph
+      3_column_paragraph: 3_column_paragraph
+      4_column_paragraph: 4_column_paragraph
+      66_33_columns_paragraph: 66_33_columns_paragraph
     target_bundles_drag_drop:
+      33_66_column_paragraph:
+        enabled: true
+        weight: 16
+      3_column_paragraph:
+        enabled: true
+        weight: 17
+      4_column_paragraph:
+        enabled: true
+        weight: 18
       50_50_paragraph:
         enabled: true
         weight: 5
+      66_33_columns_paragraph:
+        enabled: true
+        weight: 20
+      block_component:
+        weight: 21
+        enabled: false
+      component_blockquote:
+        weight: 23
+        enabled: false
+      component_button:
+        weight: 24
+        enabled: false
+      component_embed_map:
+        weight: 25
+        enabled: false
+      component_embed_video:
+        weight: 26
+        enabled: false
+      component_featured_image:
+        weight: 27
+        enabled: false
+      component_formatted_text:
+        weight: 28
+        enabled: false
       components:
         weight: 6
         enabled: false
@@ -39,3 +80,4 @@ settings:
         weight: 8
         enabled: false
 field_type: entity_reference_revisions
+
